@@ -1,0 +1,13 @@
+.PlanImg {
+    width: 100%;
+}
+
+.registerBtn {
+    position: absolute;
+    width: 154px;
+    height: 46px;
+    background: transparent;
+    top: 414px;
+    left: 50%;
+    margin-left: -77px;
+}

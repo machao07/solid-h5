@@ -1,0 +1,75 @@
+.PlanImg {
+    width: 100%;
+}
+
+.part3,
+.part4 {
+    margin: 50px 0 20px;
+    text-align: center;
+}
+
+.header {
+    padding: 0 20px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.text {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background: #000;
+    margin: 20px 0;
+}
+
+table {
+    font-size: 14px;
+    width: 94%;
+    margin: 0 auto 40px;
+    border: 1px solid #eee;
+}
+
+td {
+    width: 50%;
+    padding: 4px;
+}
+
+.bgColor {
+    background-color: #C8C8C8;
+    color: #fff;
+}
+
+.serviceBox {
+    padding: 0 10px
+}
+
+.box {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+    padding: 10px 10px 10px 30px
+}
+
+.fw {
+    font-weight: 600;
+}
+
+.bg {
+    background-color: #eee;
+}
+
+.btn {
+    letter-spacing: 2px;
+    margin-top: 40px;
+    font-size: 16px;
+    padding: 5px 20px;
+    background-color: #efeeec;
+    color: #204772;
+    user-select: none;
+}
