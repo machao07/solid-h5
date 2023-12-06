@@ -5,6 +5,8 @@ import './index.css';
 import './style/reset.css';
 import App from './App'
 
+import 'amfe-flexible/index.js';
+
 const root = document.getElementById('root')
 
 render(() => (

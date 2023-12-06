@@ -18,6 +18,9 @@
   },
   "devDependencies": {
     "@types/node": "^20.4.5",
+    "amfe-flexible": "^2.2.1",
+    "cross-env": "^7.0.3",
+    "postcss-pxtorem": "^6.0.0",
     "solid-devtools": "^0.27.3",
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
