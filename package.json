@@ -1,12 +1,26 @@
 {
   "name": "solid-app",
-  "private": true,
   "version": "0.0.1",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "start": "vite",
+    "dist:test": "./scripts/dist.sh test",
+    "dist:release": "./scripts/dist.sh release",
+    "build": "vite build",
+    "serve": "vite preview",
+    "api": "swagger-codegen"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "amfe-flexible": "^2.2.1",
+    "cross-env": "^7.0.3",
+    "dist-helper": "^0.0.6",
+    "postcss-pxtorem": "^6.0.0",
+    "solid-devtools": "^0.27.3",
+    "swagger-codegen": "git+http://ebill.allinpalm.cn:8090/open-bank/frontend/libs/tools/swagger-codegen.git#b4f98c5184f7a86110cb93dd2b3f88f67da47d21",
+    "typescript": "^5.1.3",
+    "vite": "^4.3.9",
+    "vite-plugin-solid": "^2.7.0"
   },
   "dependencies": {
     "@solidjs/router": "^0.8.2",
@@ -14,16 +28,6 @@
     "less": "^4.1.3",
     "less-loader": "^11.1.0",
     "query-string": "^8.1.0",
-    "solid-js": "^1.8.5"
-  },
-  "devDependencies": {
-    "@types/node": "^20.4.5",
-    "amfe-flexible": "^2.2.1",
-    "cross-env": "^7.0.3",
-    "postcss-pxtorem": "^6.0.0",
-    "solid-devtools": "^0.27.3",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.0",
-    "vite-plugin-solid": "^2.7.2"
+    "solid-js": "^1.7.6"
   }
 }
