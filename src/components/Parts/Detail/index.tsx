@@ -1,8 +1,8 @@
 import { createSignal, type Component } from 'solid-js';
 import ShowTwo from '@assets/show2.jpg';
 import './index.less';
-import Overlay from '../../Overlay';
-import InfoForm from '../../InfoForm';
+import Overlay from '@components/Overlay';
+import InfoForm from '@components/InfoForm';
 import { api } from '@services/api';
 import { Utils } from '@/utils/Utils';
 
