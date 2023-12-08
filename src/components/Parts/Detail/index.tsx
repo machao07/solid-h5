@@ -19,7 +19,7 @@ const DetailPart: Component = () => {
 
     return (
         <>
-            <div class="part3">
+            <div class="part">
                 <div class="header">
                     <h3 class="title">Payment Comparison</h3>
                     <p class="text">Credit Card I Cash I Mobile Digital</p>
@@ -28,7 +28,7 @@ const DetailPart: Component = () => {
                 <img class="PlanImg" src={ShowTwo} alt="细节展示" />
             </div>
 
-            <div class="part4">
+            <div class="part">
                 <div class="header">
                     <h3 class="title">Amazing Tour China Mobile Payment Service</h3>
                     <p class="text">Fast, Convenient, Rechargeable, Variety.</p>

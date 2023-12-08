@@ -4,7 +4,7 @@ import './index.less';
 
 const ShopPart: Component = () => {
     return (
-        <div class="part2">
+        <div class="part">
             <div class="header">
                 <h3 class="title">The mainstream payment method in China</h3>
                 <p class="text">Fast I Convenient I Smart I Security I Variety I Universal</p>
