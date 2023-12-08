@@ -1,6 +1,6 @@
 import { createSignal, type Component } from 'solid-js';
 import PlanTwoHome from '@assets/plan2-home.jpg'
-import styles from './index.module.css';
+import './index.less';
 import ShopPart from '@components/Parts/Shop';
 import DetailPart from '@components/Parts/Detail';
 import Overlay from '@components/Overlay';
@@ -21,8 +21,8 @@ const PlanOne: Component = () => {
 
     return (
         <>
-            <img class={styles.PlanImg} src={PlanTwoHome} alt="首页" />
-            <div class={styles.registerBtn} onClick={handleRegister}></div>
+            <img class="PlanImg" src={PlanTwoHome} alt="首页" />
+            <div class="registerBtn" onClick={handleRegister}></div>
             <ShopPart />
             <DetailPart />
             <Overlay

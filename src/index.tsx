@@ -1,8 +1,8 @@
 /* @refresh reload */
 import { render } from 'solid-js/web';
 import { Router } from "@solidjs/router";
-import './index.css';
-import './style/reset.css';
+import './index.less';
+import './style/reset.less';
 import App from './App';
 
 import 'amfe-flexible/index.js';
