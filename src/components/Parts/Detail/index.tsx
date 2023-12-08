@@ -1,10 +1,10 @@
 import { createSignal, type Component } from 'solid-js';
-import ShowTwo from '../../../assets/show2.jpg';
+import ShowTwo from '@assets/show2.jpg';
 import styles from './index.module.css';
-import Overlay from '../../Overlay';
-import InfoForm from '../../InfoForm';
-import { api } from '../../../services/api';
-import { Utils } from '../../../utils/Utils';
+import Overlay from '@components/Overlay';
+import InfoForm from '@components/InfoForm';
+import { api } from '@services/api';
+import { Utils } from '@utils/Utils';
 
 const DetailPart: Component = () => {
     const [getVisible, setVisible] = createSignal<boolean>(false);

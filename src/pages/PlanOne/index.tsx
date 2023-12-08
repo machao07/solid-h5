@@ -1,13 +1,13 @@
 import type { Component } from 'solid-js';
 import { createSignal } from 'solid-js';
-import PlanOneHome from '../../assets/plan1-home.jpg'
+import PlanOneHome from '@assets/plan1-home.jpg'
 import styles from './index.module.css';
-import ShopPart from '../../components/Parts/Shop';
-import DetailPart from '../../components/Parts/Detail';
-import Overlay from '../../components/Overlay';
-import InfoForm from '../../components/InfoForm';
-import { api } from '../../services/api';
-import { Utils } from '../../utils/Utils';
+import ShopPart from '@components/Parts/Shop';
+import DetailPart from '@components/Parts/Detail';
+import Overlay from '@components/Overlay';
+import InfoForm from '@components/InfoForm';
+import { api } from '@services/api';
+import { Utils } from '@utils/Utils';
 
 const PlanOne: Component = () => {
     const [getVisible, setVisible] = createSignal<boolean>(false);

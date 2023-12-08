@@ -1,8 +1,8 @@
 import { createSignal, type Component, createMemo, JSX } from 'solid-js';
-import FromBg from '../../assets/form-bg.png'
+import FromBg from '@assets/form-bg.png'
 import './index.less';
-import { api } from '../../services/api';
-import { Utils } from '../../utils/Utils';
+import { api } from '@services/api';
+import { Utils } from '@utils/Utils';
 import Toast from '../Toast';
 
 interface Props {

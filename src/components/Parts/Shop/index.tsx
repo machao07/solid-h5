@@ -1,5 +1,5 @@
 import type { Component } from 'solid-js';
-import ShowOne from '../../../assets/show1.jpg'
+import ShowOne from '@assets/show1.jpg'
 
 import styles from './index.module.css';
 
