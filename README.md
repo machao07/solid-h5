@@ -6,21 +6,22 @@ $ npm install # or pnpm install or yarn install
 
 ### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
 
-## Available Scripts
+## 启动
 
-In the project directory, you can run:
+```bash
+$ npm run dev # or yarn start
+```
 
-### `npm run dev` or `yarn start`
+## 打包
 
-Runs the app in the development mode.<br>
+```bash
+$ npm run build # or yarn build
+```
 
-The page will reload if you make edits.<br>
+Builds the app for production to the `dist` folder.
 
-### `npm run build` or `yarn build`
+## package.json 某些依赖诠释
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+### `dist-helper 自定义打包上传工具`
 
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+### `swagger-codegen 自定义生成api接口工具`
